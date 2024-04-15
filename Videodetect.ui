@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1190</width>
+    <height>809</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>910</y>
+      <width>631</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>COPY@RIGHT : XUAN KY AUTOMATION - 17-3-2024   </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_video">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="video_name">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>730</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>PICTURE OF OBJECT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="START">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>50</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SELECT">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>130</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SELECT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="EDIT">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>200</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EDIT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1190</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="SelectVideo">
+   <property name="text">
+    <string>SelectVideoSource</string>
+   </property>
+  </action>
+  <action name="actionSelect_Best_pt">
+   <property name="text">
+    <string>Select Best.pt</string>
+   </property>
+  </action>
+  <action name="StartDetection">
+   <property name="text">
+    <string>Start Video Detection</string>
+   </property>
+  </action>
+  <action name="Exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionselectvideo">
+   <property name="text">
+    <string>SelectVideo</string>
+   </property>
+  </action>
+  <action name="startdetect">
+   <property name="text">
+    <string>StartDetect</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSelectVideo">
+   <property name="text">
+    <string>SelectVideo</string>
+   </property>
+  </action>
+  <action name="actionStartDetect">
+   <property name="text">
+    <string>StartDetect</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
